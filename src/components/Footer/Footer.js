@@ -1,3 +1,10 @@
+import React from 'react';
+import { FB } from './Components/FB'
+
 export default function Footer() {
-    return <div>Footer</div>
+    return (
+        <div>
+            <FB></FB>
+        </div>
+    );
 }
