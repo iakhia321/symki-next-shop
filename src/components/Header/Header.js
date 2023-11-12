@@ -1,4 +1,4 @@
-import { FB, Search} from './components';
+import { FB } from '../Header/components/FB/FB';
 
 
 export const Header = ({searchValue, setSearchValue}) => {
