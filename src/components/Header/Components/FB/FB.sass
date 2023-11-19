@@ -1,3 +1,5 @@
+$font-stack: Lexend Deca-Regular, Helvetica
+
 .headerFB
     background-color: red
     text-align: center
@@ -12,8 +14,18 @@
         justify-content: space-evenly
         margin-inline: 400px
         text-transform: uppercase
-        text-decoration: none
-        color: #FEF9F0
+        cursor: pointer
+        
+        &__Btn
+            color: blue
+            background: none
+            text-decoration: none
+            -webkit-transition-duration: 0.4s
+            font: 100% $font-stack
+            &:hover
+                color: green
+                font: 100% $font-stack
+        
         
 .LoginCart
     position: relative
@@ -24,3 +36,4 @@
     margin-right: 100px
     text-decoration: none
     color: #FEF9F0
+    cursor: pointer

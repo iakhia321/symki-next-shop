@@ -1,9 +1,11 @@
+import React from 'react'
+import './Search.sass';
 
-export function Search ()  {
+export const Search = () => {
     return (
-        <form>
-            <input type='text' placeholder='Search..'></input>
-            <button type="submit" alt='submit'></button>
+        <form className='search'>
+            <input type='text' className='search__input' placeholder='Search..'></input>
+            <button type="submit" className='search__btn' alt='submit'></button>
         </form>
     )
 }
