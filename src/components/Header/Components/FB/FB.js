@@ -1,36 +1,39 @@
 import React from 'react'
 import Link from 'next/link'
-import styles from './FB.module.sass'
+import './FB.sass'
+import instagramblack from './../../../../image/instagramblack.png'
 
 export function FB() {
     return (
-        <header>
-            <div className={styles.fb}>FRIENDS BOX</div>
-            <div>
+        <header className="headerFB">
+        
+        <div className="headerFB__friends-box">FRIENDS BOX</div>
+            <div className="LoginCart">
                 <Link href="https://instagram.com/_friends_box?igshid=YTQwZjQ0NmI0OA==">
-                    <button></button>
+                    <button className="instagramblack" alt="Vector" src={instagramblack} target="_blank"></button>
                 </Link>
                 <Link href="/LC/LC">
-                    <button>Log in</button>
+                    <button className="Login">Log in</button>
                 </Link>
                 <Link href="/LC/LC">
-                    <button>Cart</button>
+                    <button className="Cart">Cart</button>
                 </Link>
-            </div>
-            <div>
+        </div>
+            <div className="headerFB__navbar">
                 <Link href="/">
-                    <button>Home</button>
+                    <button className="headerFB__navbar__Btn" >Home</button>
                 </Link>
                 <Link href="/shop/shop">
-                    <button>Shop All</button>
+                    <button className="headerFB__navbar__Btn">Shop All</button>
                 </Link>
                 <Link href="/about/about">
-                    <button>About Us</button>
+                    <button className="headerFB__navbar__Btn">About Us</button>
                 </Link>
                 <Link href="/contact/contact">
-                    <button>Contact</button>
+                    <button className="headerFB__navbar__Btn">Contact</button>
                 </Link>
             </div>
+        
         </header>
     )
 }

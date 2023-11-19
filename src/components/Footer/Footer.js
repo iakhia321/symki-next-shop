@@ -1,10 +1,10 @@
 import React from 'react';
-import { FB } from './Components/FB'
+import { Fot } from './Components/Fot'
 
 export default function Footer() {
     return (
         <div>
-            <FB></FB>
+            <Fot></Fot>
         </div>
     );
 }
