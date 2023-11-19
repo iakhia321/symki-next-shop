@@ -42,13 +42,19 @@ $font-stack: Lexend Deca-Regular, Helvetica
 				margin-left: 105px
 			li
 				padding: 10px 0px
-				
-			&__inf
-				h4
-					font-size: 11px
-					text-transform: uppercase
-					letter-spacing: 3px
-					margin-bottom: 10px
+			&__pages
+				&__btn
+					background-color: #4CAF50
+					border: none
+					color: white
+					padding: 15px 32px
+					text-align: center
+					text-decoration: none
+					display: inline-block
+					font-size: 16px
+					margin: 4px 2px
+					cursor: pointer
+
 			&__list
 				ul
 					display: flex
@@ -57,6 +63,18 @@ $font-stack: Lexend Deca-Regular, Helvetica
 					padding: 0
 				li
 					padding: 5px 0
+				&__btn
+					background-color: #4CAF50
+					border: none
+					color: white
+					padding: 15px 32px
+					text-align: center
+					text-decoration: none
+					display: inline-block
+					font-size: 16px
+					margin: 4px 2px
+					cursor: pointer
+
 
 	&__social
 		ul
@@ -151,3 +169,19 @@ $font-stack: Lexend Deca-Regular, Helvetica
 	font: 100% $font-stack
 	text-align: center
 	vertical-align: middle
+	font: 100% $font-stack
+.btn
+	background-color: $back-color
+	border: none
+	color: white
+	padding: 3px
+	text-align: center
+	text-decoration: none
+	display: inline-block
+	cursor: pointer
+	-webkit-transition-duration: 0.4s
+	transition-duration: 0.4s
+	font: 100% $font-stack
+	&:hover
+		color: $logo-color
+		font: 100% $font-stack
