@@ -16,22 +16,22 @@ export function Fot() {
                             <ul className='footer__nav__pages'>
                                 <li>
                                     <Link href="/home">
-                                        <button className='footer__nav__pages__btn'>Home</button>
+                                        <button className='btn'>Home</button>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href="/shop-all">
-                                        <button className='footer__nav__pages__btn'>Shop all</button>
+                                        <button className='btn'>Shop all</button>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href="/about">
-                                        <button className='footer__nav__pages__btn'>About</button>
+                                        <button className='btn'>About Us</button>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href="/contact">
-                                        <button className='footer__nav__pages__btn'>Contact</button>
+                                        <button className='btn'>Contact</button>
                                     </Link>
                                 </li>
                             </ul>
@@ -40,17 +40,17 @@ export function Fot() {
                             <ul className="footer__nav__list">
                                 <li>
                                     <Link href="/FAQ">
-                                        <button className='footer__nav__list__btn'>FAQ</button>
+                                        <button className='btn'>FAQ</button>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href="/S_R">
-                                        <button className='footer__nav__list__btn'>Shipping & Returns</button>
+                                        <button className='btn'>Shipping & Returns</button>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href="/StrPol">
-                                        <button className='footer__nav__list__btn'>Store Policy & Payment</button>
+                                        <button className='btn'>Store Policy & Payment</button>
                                     </Link>
                                 </li>
                             </ul>
@@ -61,7 +61,7 @@ export function Fot() {
                         <ul>
                             <li>
                                 <Link href="https://instagram.com/_friends_box?igshid=YTQwZjQ0NmI0OA==" target="_blank">
-                                    <button>Instagram</button>
+                                    <button className='btn'>Instagram</button>
                                 </Link>
                             </li> 
                         </ul>
