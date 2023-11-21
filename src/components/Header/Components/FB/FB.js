@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import './FB.sass'
-import instagramblack from './../../../../image/instagramblack.png'
+import './../../../../image/instagramblack.png'
 
 export function FB() {
     return (
@@ -10,7 +10,7 @@ export function FB() {
         <div className="headerFB__friends-box">FRIENDS BOX</div>
             <div className="LoginCart">
                 <Link href="https://instagram.com/_friends_box?igshid=YTQwZjQ0NmI0OA==">
-                    <button className="instagramblack" alt="Vector" src={instagramblack} target="_blank"></button>
+                    <button className="LoginCart__instagramblack" alt="Vector" target="_blank"></button>
                 </Link>
                 <Link href="/LC/LC">
                     <button className="LoginCart__LC">Log in</button>
