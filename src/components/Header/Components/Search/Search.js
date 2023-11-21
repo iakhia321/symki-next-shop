@@ -1,8 +1,8 @@
 import React from 'react'
-import './Search.sass';
+import './Search.sass'
 import './../../../../image/searchblack.png'
 
-export const Search = () => {
+export function Search ()  {
     return (
         <form className='search'>
             <input type='text' className='search__input' placeholder='Search..'></input>
