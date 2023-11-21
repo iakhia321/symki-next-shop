@@ -13,10 +13,10 @@ export function FB() {
                     <button className="instagramblack" alt="Vector" src={instagramblack} target="_blank"></button>
                 </Link>
                 <Link href="/LC/LC">
-                    <button className="Login">Log in</button>
+                    <button className="LoginCart__LC">Log in</button>
                 </Link>
                 <Link href="/LC/LC">
-                    <button className="Cart">Cart</button>
+                    <button className="LoginCart__LC">Cart</button>
                 </Link>
         </div>
             <div className="headerFB__navbar">
