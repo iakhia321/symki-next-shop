@@ -1,3 +1,6 @@
+import React from 'react'
+import './Search.sass'
+import './../../../../image/searchblack.png'
 
 export function Search ()  {
     return (
