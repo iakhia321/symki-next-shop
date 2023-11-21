@@ -15,22 +15,22 @@ export function Fot() {
             	        <div className="footer__nav__menu">
                             <ul className='footer__nav__pages'>
                                 <li>
-                                    <Link href="/home">
+                                    <Link href="/">
                                         <button className='btn'>Home</button>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/shop-all">
+                                    <Link href="/shop-all/shop-all">
                                         <button className='btn'>Shop all</button>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/about">
+                                    <Link href="/about/about">
                                         <button className='btn'>About Us</button>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/contact">
+                                    <Link href="/contact/contact">
                                         <button className='btn'>Contact</button>
                                     </Link>
                                 </li>
@@ -39,17 +39,17 @@ export function Fot() {
                         <div className='footer__nav__inf'>
                             <ul className="footer__nav__list">
                                 <li>
-                                    <Link href="/FAQ">
+                                    <Link href="/faq/faq">
                                         <button className='btn'>FAQ</button>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/S_R">
+                                    <Link href="/s_r/s_r">
                                         <button className='btn'>Shipping & Returns</button>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/StrPol">
+                                    <Link href="/strpol/strpol">
                                         <button className='btn'>Store Policy & Payment</button>
                                     </Link>
                                 </li>

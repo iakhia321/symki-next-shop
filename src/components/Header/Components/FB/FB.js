@@ -5,12 +5,12 @@ import instagramblack from './../../../../image/instagramblack.png'
 
 export function FB() {
     return (
-        <header>
-        <div>
-            <div className="headerFB">FRIENDS BOX</div>
-            <div>
+        <header className="headerFB">
+        
+        <div className="headerFB__friends-box">FRIENDS BOX</div>
+            <div className="LoginCart">
                 <Link href="https://instagram.com/_friends_box?igshid=YTQwZjQ0NmI0OA==">
-                    <button className="instagramblack" alt="Vector" src={instagramblack} ></button>
+                    <button className="instagramblack" alt="Vector" src={instagramblack} target="_blank"></button>
                 </Link>
                 <Link href="/LC/LC">
                     <button className="Login">Log in</button>
@@ -18,7 +18,7 @@ export function FB() {
                 <Link href="/LC/LC">
                     <button className="Cart">Cart</button>
                 </Link>
-            </div>
+        </div>
             <div className="headerFB__navbar">
                 <Link href="/">
                     <button className="headerFB__navbar__Btn" >Home</button>
@@ -33,7 +33,7 @@ export function FB() {
                     <button className="headerFB__navbar__Btn">Contact</button>
                 </Link>
             </div>
-        </div>
+        
         </header>
     )
 }
