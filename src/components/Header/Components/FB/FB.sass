@@ -9,17 +9,25 @@ $font-stack: Lexend Deca-Regular, Helvetica
     position: relative
     padding-top: 20px 
     line-height: 4
+    
     &__navbar
         display: flex
         justify-content: space-evenly
         margin-inline: 400px
         text-transform: uppercase
-        cursor: pointer
+        
         
         &__Btn
-            color: blue
-            background: none
-            -webkit-transition-duration: 0.4s
+            background-color: grey
+            border: none            
+            color: white
+            padding: 15px 32px
+            text-align: center
+            text-decoration: none
+            display: inline-block
+            font-size: 16px
+            margin: 4px 2px
+            cursor: pointer
             font: 100% $font-stack
             &:hover
                 color: green
@@ -35,3 +43,31 @@ $font-stack: Lexend Deca-Regular, Helvetica
     margin-right: 100px
     text-decoration: none
     color: #FEF9F0
+
+    &__instagramblack
+        border: none
+        height: 30px
+        width: 30px
+        position: absolute
+        top: 0
+        right: 0
+        cursor: pointer
+        content: url(./../../../../image/instagramblack.png)
+        &:before
+            content: url(./../../../../image/instagramblack.png)
+
+    &__LC
+        background-color: grey
+        border: none            
+        color: white
+        padding: 15px 32px
+        text-align: center
+        text-decoration: none
+        display: inline-block
+        font-size: 16px
+        margin: 4px 2px
+        cursor: pointer
+        font: 100% $font-stack
+        &:hover
+            color: green
+            font: 100% $font-stack
