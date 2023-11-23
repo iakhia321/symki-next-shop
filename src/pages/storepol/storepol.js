@@ -1,4 +1,4 @@
-import { Payment } from './components/Payment'
+import { Pay } from './components/Pay'
 import './storepol.sass'
 
 export default function Storepol() {
@@ -29,7 +29,7 @@ export default function Storepol() {
                             Im the second paragraph in your your wholesale inquiries section. Click here to add your own text and edit me. Its easy. Just click Edit Text or double click me to add details about your policy and make changes to the font. Im a great place for you to tell a story and let your users know a little more about you.</p>
                     </div>
                 </div>
-                <Payment />
+                <Pay />
             </div>
         </div>
     )

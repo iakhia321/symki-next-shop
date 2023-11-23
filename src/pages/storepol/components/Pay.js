@@ -1,6 +1,6 @@
-import './Payment.sass'
+import './Pay.sass'
 
-export function Payment() {
+export function Pay() {
     return (
         <div className='pay'>
             <div className='pay__slogan'>
