@@ -49,7 +49,7 @@ export function Fot() {
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/strpol/strpol">
+                                    <Link href="/storepol/storepol">
                                         <button className='btn'>Store Policy & Payment</button>
                                     </Link>
                                 </li>
