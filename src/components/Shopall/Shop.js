@@ -3,6 +3,12 @@ import Image from 'next/image';
 import sumka5 from '../../image/symka5.jpg';
 import sumka1 from '../../image/symka1.jpg';
 
+
+
+const removeItemFromList = id => {
+
+}
+
 const Shop = () => {
   return (
     <>
