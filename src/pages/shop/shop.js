@@ -1,6 +1,13 @@
 import './shop.sass';
+import React, { useState } from 'react';
 
-export default function shopall() {
+const PriceRangeSlider = () => {
+    const [price, setPrice] = useState(50);
+
+    const handlePriceChange = (e) => 
+        setPrice(e.target.value);
+    };
+export default function shopall () {
     return(
     <div class="price-range-container">
         <label for="priceRange">Price Range:</label>
@@ -9,3 +16,4 @@ export default function shopall() {
     </div>
     )
 }
+
