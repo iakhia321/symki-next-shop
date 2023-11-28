@@ -1,5 +1,21 @@
-import './home.sass'
 
-export default function Page() {
-  return <h1 className="home">Hello, Next.js!</h1>
+import Carousel from './Slider/Carousel'
+
+import { Link }  from 'react-router-dom'
+
+
+
+
+export default function Home(){
+    return (
+     <div className="Selars">
+          <h1>Most Popular</h1>
+          <>
+          <Carousel/>
+          </>
+          <Link to="/shop-all">
+                <a className="Button"href='src/components/Home/ComponentsButton/Shop'>Shop the collection</a>
+            </Link>
+     </div>
+    )
 }
