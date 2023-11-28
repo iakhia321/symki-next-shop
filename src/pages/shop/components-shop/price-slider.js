@@ -20,10 +20,14 @@ const PriceSlider = () => {
   };
 
   return (
+    <div className="shop-header">
+        <h3>Shop-all</h3>
+
+    
     <div className="Price">
       <p>Price Range: ${priceRange[0]} - ${priceRange[1]}</p>
       <Slider
-      className="Slider-price"
+        className="Slider-price"
         range
         min={0}
         max={100}
@@ -38,10 +42,12 @@ const PriceSlider = () => {
       />
       -
       <InputNumber
+        className="InputNumber2"
         style={{ margin: '0 16px' }}
         value={priceRange[1]}
         onChange={(value) => handleInputChange(value, 1)}
       />
+    </div>
     </div>
   );
 };
