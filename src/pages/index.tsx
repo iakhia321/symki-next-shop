@@ -1,5 +1,11 @@
 import './home.sass'
 
 export default function Page() {
-  return <h1 className="home">Hello, Next.js!</h1>
+  return (
+    <div className='home'>
+      <h2>Hello People!</h2>
+      <div>
+      </div>
+    </div>
+  )
 }
