@@ -1,18 +1,20 @@
 import './shop.sass';
 import React, { useState } from 'react';
 
-const PriceRangeSlider = () => {
-    const [price, setPrice] = useState(50);
-
-    const handlePriceChange = (e) => 
-        setPrice(e.target.value);
-    };
 export default function shopall () {
     return(
-    <div class="price-range-container">
-        <label for="priceRange">Price Range:</label>
-        <input type="range" id="priceRange" min="0" max="100" step="1" value="50" />
-        <p id="priceValue">50</p>
+    <div>
+    <ReactSlider
+    className="horizontal-slider"
+    thumbClassName="example-thumb"
+    trackClassName="example-track"
+    defaultValue={[0, 100]}
+    ariaLabel={['Lower thumb', 'Upper thumb']}
+    ariaValuetext={state => `Thumb value ${state.valueNow}`}
+    renderThumb={(props, state) => <div {...props}>{state.valueNow}</div>}
+    pearling
+    minDistance={10}
+    />
     </div>
     )
 }
