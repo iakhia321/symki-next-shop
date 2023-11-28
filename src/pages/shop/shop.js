@@ -1,9 +1,10 @@
 import './shop.sass';
+import ReactSlider from 'react-slider';
 import React, { useState } from 'react';
 
 export default function shopall () {
     return(
-    <div>
+    <div className="price">
     <ReactSlider
     className="horizontal-slider"
     thumbClassName="example-thumb"
