@@ -2,9 +2,9 @@
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-
-
-import { Link } from 'react-router-dom';
+import instagramblack from './../../image/instagramblack.png'
+import Image from 'next/image'
+import Link  from 'next/link';
 
 
 
@@ -37,23 +37,24 @@ export default function Carousel() {
       
       >
         
-        <SwiperSlide><Link to="/shop-all" target="_self" rel="noreferrer">
+      <SwiperSlide><Link href="/shop-all" target="_self" rel="noreferrer"><div>
+        <Image src={instagramblack} /></div>
         
       </Link></SwiperSlide>
 
-      <SwiperSlide><Link to="/shop-all" target="_self" rel="noreferrer">
+      <SwiperSlide><Link href="/shop-all" target="_self" rel="noreferrer">
         
       </Link></SwiperSlide>
 
-      <SwiperSlide><Link to="/shop-all" target="_self" rel="noreferrer">
+      <SwiperSlide><Link href="/shop-all" target="_self" rel="noreferrer">
         
       </Link></SwiperSlide>
 
-      <SwiperSlide><Link to="/shop-all" target="_self" rel="noreferrer">
+      <SwiperSlide><Link href="/shop-all" target="_self" rel="noreferrer">
         
       </Link></SwiperSlide>
 
-      <SwiperSlide><Link to="/shop-all" target="_self" rel="noreferrer">
+      <SwiperSlide><Link href="/shop-all" target="_self" rel="noreferrer">
         
       </Link></SwiperSlide>
        
