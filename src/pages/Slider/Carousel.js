@@ -37,24 +37,24 @@ export default function Carousel() {
       
       >
         
-      <SwiperSlide><Link href="/shop-all" target="_self" rel="noreferrer"><div>
+      <SwiperSlide><Link href="/shop/shop" target="_self" rel="noreferrer"><div>
         <Image src={instagramblack} /></div>
         
       </Link></SwiperSlide>
 
-      <SwiperSlide><Link href="/shop-all" target="_self" rel="noreferrer">
+      <SwiperSlide><Link href="/shop/shop" target="_self" rel="noreferrer">
         
       </Link></SwiperSlide>
 
-      <SwiperSlide><Link href="/shop-all" target="_self" rel="noreferrer">
+      <SwiperSlide><Link href="/shop/shop" target="_self" rel="noreferrer">
         
       </Link></SwiperSlide>
 
-      <SwiperSlide><Link href="/shop-all" target="_self" rel="noreferrer">
+      <SwiperSlide><Link href="/shop/shop" target="_self" rel="noreferrer">
         
       </Link></SwiperSlide>
 
-      <SwiperSlide><Link href="/shop-all" target="_self" rel="noreferrer">
+      <SwiperSlide><Link href="/shop/shop" target="_self" rel="noreferrer">
         
       </Link></SwiperSlide>
        
