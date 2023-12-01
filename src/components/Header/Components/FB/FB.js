@@ -1,12 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Link from 'next/link'
 import './FB.sass'
 import './../../../../image/instagramblack.png'
 
 export function FB() {
+
     return (
         <header className="headerFB">
-        
         <div className="headerFB__friends-box">FRIENDS BOX</div>
             <div className="LoginCart">
                 <Link href="https://instagram.com/_friends_box?igshid=YTQwZjQ0NmI0OA==">
@@ -15,9 +15,7 @@ export function FB() {
                 <Link href="/LC/LC">
                     <button className="LoginCart__LC">Log in</button>
                 </Link>
-                <Link href="/LC/LC">
-                    <button className="LoginCart__LC">Cart</button>
-                </Link>
+                <button className="LoginCart__LC">Cart</button>
         </div>
             <div className="headerFB__navbar">
                 <Link href="/">
@@ -33,7 +31,6 @@ export function FB() {
                     <button className="headerFB__navbar__Btn">Contact</button>
                 </Link>
             </div>
-        
         </header>
     )
 }

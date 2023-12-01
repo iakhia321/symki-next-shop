@@ -8,7 +8,7 @@ export function Fot() {
         <footer className='footer'>
             <div className='footer__row'>
                     <div className='footer__logo'>
-                        <h2>Logo</h2>
+                        <h2>FRIENDS BOX</h2>
                         <p>© 2023  All rights reserved</p>
                     </div>
                     <div className='footer__nav'>
@@ -20,7 +20,7 @@ export function Fot() {
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/shop-all/shop-all">
+                                    <Link href="/shop/shop">
                                         <button className='btn'>Shop all</button>
                                     </Link>
                                 </li>

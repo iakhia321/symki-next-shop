@@ -30,7 +30,7 @@ export default function Contact() {
                     <p className='contact__Mail__form__p_form' type="Name:"><input className='contact__Mail__form__inp_form' placeholder="Write your name here.." name='username' /></p>
                     <p className='contact__Mail__form__p_form' type="Email:"><input className='contact__Mail__form__inp_form' placeholder="Let us know how to contact you back.." name='email' /></p>
                     <p className='contact__Mail__form__p_form' type="Subject:"><input className='contact__Mail__form__inp_form' placeholder="Write the subject line.." name='subject' /></p>
-                    <p className='contact__Mail__form__p_form' type="Message:"><input className='contact__Mail__form__inp_form' placeholder="What would you like to tell us.." name='message' /></p>
+                    <p className='contact__Mail__form__p_form' type="Message:"><textarea className='contact__Mail__form__inp_form' placeholder="What would you like to tell us.." name='message' rows="5" /></p>
                     <button className='contact__Mail__form__btn_form' type='submit'>Send Message</button>
                 </form>
             </div>

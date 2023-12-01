@@ -59,7 +59,7 @@
 
         &__form
             width: 340px
-            height: 440px
+            height: 520px
             background: #b4aa9994
             border-radius: 8px
             margin: calc(50vh - 460px) auto
@@ -79,6 +79,7 @@
                 border-bottom: 3px solid #78788c
 
             &__inp_form
+                resize: none
                 width: 100%
                 padding: 10px
                 box-sizing: border-box
@@ -89,9 +90,10 @@
                 font-family: 'Montserrat',sans-serif
                 transition: all .3s
                 border-bottom: 2px solid #4E4637
-                
                 &:focus
                     border-bottom: 2px solid #807663
+                &::-webkit-scrollbar
+                    width: 0
 
             &__p_form:before
                 content: attr(type)
