@@ -20,7 +20,7 @@ export function Fot() {
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/shop-all/shop-all">
+                                    <Link href="/shop/shop">
                                         <button className='btn'>Shop all</button>
                                     </Link>
                                 </li>
