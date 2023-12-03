@@ -30,6 +30,9 @@ export function FB() {
                 <Link href="/contact/contact">
                     <button className="headerFB__navbar__Btn">Contact</button>
                 </Link>
+                <Link href="/iakhia/iakhia">
+                    <button className="headerFB__navbar__Btn">iakhia</button>
+                </Link>
             </div>
         </header>
     )
