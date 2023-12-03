@@ -1,11 +1,18 @@
-import './home.sass'
+import Carousel from './Slider/Carousel'
 
-export default function Page() {
-  return (
-    <div className='home'>
-      <h2>Hello People!</h2>
-      <div>
-      </div>
-    </div>
-  )
+
+
+
+
+
+export default function Page(){
+    return (
+     <div className="Selars">
+          <h1>Most Popular</h1>
+          <>
+          <Carousel/>
+          </>
+        
+     </div>
+    )
 }
