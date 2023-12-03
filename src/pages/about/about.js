@@ -1,3 +1,4 @@
+
 import styles from './about.sass'
 
 
@@ -15,3 +16,5 @@ export default function About() {
 </div>
     )
 }
+
+ 
