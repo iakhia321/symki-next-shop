@@ -25,7 +25,7 @@ const PriceSlider = () => {
 
     
       <div className="Price">
-        <p>Price Range: ${priceRange[0]} - ${priceRange[1]}</p>
+        <p>Price Range: ₺{priceRange[0]} - ₺{priceRange[1]}</p>
         <Slider
          className="Slider-price"
          range
