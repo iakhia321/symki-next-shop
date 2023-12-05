@@ -1,6 +1,6 @@
 import './Symka.sass'
 
-export function Symka() {
+export function Symka1() {
     return(
         <div>tryjjy</div>
     )

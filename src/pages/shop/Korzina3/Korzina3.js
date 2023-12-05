@@ -1,6 +1,6 @@
 import './Korzina.sass'
 
-export function Korzina() {
+export function Korzina3() {
     return(
         <div>rth</div>
     )
