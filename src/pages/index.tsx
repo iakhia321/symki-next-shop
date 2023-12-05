@@ -1,5 +1,8 @@
 import Carousel from './Slider/Carousel'
 import "./home.sass"
+import gta from './../image/gta.png'
+
+import Image from 'next/image'
 
 
 
@@ -8,7 +11,16 @@ import "./home.sass"
 
 export default function Page(){
     return (
+    
+        
      <div className="Selars">
+    
+    <Image
+      src={gta}
+      width={1500}
+      height={500}
+      alt="Picture of the author"
+    />
           <h1 className="Selars__popular">Most Popular</h1>
           <>
           <Carousel/>
