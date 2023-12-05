@@ -1,4 +1,4 @@
-import './Korzina.sass'
+import './Korzina3.sass'
 
 export function Korzina3() {
     return(

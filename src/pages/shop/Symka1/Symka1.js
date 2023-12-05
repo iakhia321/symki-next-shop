@@ -1,4 +1,4 @@
-import './Symka.sass'
+import './Symka1.sass'
 
 export function Symka1() {
     return(
