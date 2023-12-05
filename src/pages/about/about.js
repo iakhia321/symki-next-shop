@@ -1,5 +1,5 @@
 
-import styles from './about.sass'
+import './about.sass'
 
 
 
