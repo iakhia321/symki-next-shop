@@ -1,6 +1,6 @@
 import Carousel from './Slider/Carousel'
-import Card from './Card/Card'
-
+import ProductList from './Card/Card'
+import { products } from './CardList/CardList'
 
 
 
@@ -11,7 +11,7 @@ export default function Page(){
           <h1>Most Popular</h1>
           <>
           <Carousel/>
-          <Card />
+          <ProductList products={products} />
           </>
         
      </div>
