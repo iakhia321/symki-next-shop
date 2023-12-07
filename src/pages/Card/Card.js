@@ -8,7 +8,7 @@ import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
 
 
-const ProductCard = ({ product }) => {
+export const ProductCard = ({ product }) => {
  return (
     <Card sx={{ maxWidth: 345 }}>
       <CardActionArea>
