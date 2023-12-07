@@ -39,7 +39,7 @@ export const ProductCard = ({ product }) => {
 const ProductList = ({ products }) => {
  return (
     <div style={{ display: 'flex', gap: '16px', marginLeft: '10px' }}>
-      {products.map((product) => (
+      {products?.map((product) => (
         <ProductCard key={product.id} product={product} />
       ))}
     </div>
