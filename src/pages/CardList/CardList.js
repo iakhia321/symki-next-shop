@@ -32,3 +32,10 @@ export const products = [
         image: 'https://i.pinimg.com/564x/ac/7c/e2/ac7ce28e08fc0d4d453a3cd1fe8b81f6.jpg',
      },
    ];
+
+
+   const ProductList = () => {
+      return <div>Product list content</div>;
+   };
+    
+export default ProductList;
