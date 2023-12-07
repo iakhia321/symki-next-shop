@@ -38,7 +38,7 @@ export default function Carousel() {
       >
         
       <SwiperSlide><Link href="/shop/shop" target="_self" rel="noreferrer"><div>
-        <Image src={instagramblack} /></div>
+        <Image src={instagramblack} alt='image' /></div>
         
       </Link></SwiperSlide>
 

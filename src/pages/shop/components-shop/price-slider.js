@@ -7,7 +7,7 @@ import './price.sass'
 
 
 const PriceSlider = () => {
-  const [priceRange, setPriceRange] = useState([0, 100]);
+  const [priceRange, setPriceRange] = useState([0, 500]);
 
   const handlePriceChange = (newRange) => {
     setPriceRange(newRange);
@@ -21,16 +21,13 @@ const PriceSlider = () => {
 
   return (
     <div className="shop-header">
-        <h3>Shop-all</h3>
-
-    
       <div className="Price">
-        <p>Price Range: ${priceRange[0]} - ${priceRange[1]}</p>
+        <p style={{ margin: '0 16px' }}>Price Range: ₺{priceRange[0]} - ₺{priceRange[1]}</p>
         <Slider
          className="Slider-price"
          range
          min={0}
-         max={100}
+         max={500}
          value={priceRange}
          onChange={handlePriceChange}
         />
@@ -54,6 +51,11 @@ const PriceSlider = () => {
         <button className="symki">Korzina</button>
         <button className="symki">Paket</button>
         </div>
+      </div>
+      <div className="Card">
+        <div className="Card__CardM1"></div>
+        <div className="Card__CardM1"></div>
+        <div className="Card__CardM1"></div>
       </div>
     </div>
       
