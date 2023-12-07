@@ -43,49 +43,49 @@ export default function Carousel() {
       >
         
       <SwiperSlide><Link href="/shop/shop" target="_self" rel="noreferrer"><div>
-        <Image src={symka1} /></div>
+        <Image src={symka1} alt='symka' /></div>
         
       </Link></SwiperSlide>
 
       <SwiperSlide><Link href="/shop/shop" target="_self" rel="noreferrer"><div>
-        <Image src={symka2} /></div>
+        <Image src={symka2} alt='symka' /></div>
         
       </Link></SwiperSlide>
 
       <SwiperSlide><Link href="/shop/shop" target="_self" rel="noreferrer"><div>
-        <Image src={symka2} /></div>
+        <Image src={symka2} alt='symka'  /></div>
         
       </Link></SwiperSlide>
 
       <SwiperSlide><Link href="/shop/shop" target="_self" rel="noreferrer"><div>
-        <Image src={symka2} /></div>
+        <Image src={symka2} alt='symka' /></div>
         
       </Link></SwiperSlide>
 
       <SwiperSlide><Link href="/shop/shop" target="_self" rel="noreferrer"><div>
-        <Image src={symka2} /></div>
+        <Image src={symka2} alt='symka' /></div>
         
       </Link></SwiperSlide>
 
       <SwiperSlide><Link href="/shop/shop" target="_self" rel="noreferrer"><div>
-        <Image src={symka2} /></div>
+        <Image src={symka2} alt='symka' /></div>
         
       </Link></SwiperSlide>
 
       <SwiperSlide><Link href="/shop/shop" target="_self" rel="noreferrer"><div>
-        <Image src={symka2} /></div>
+        <Image src={symka2} alt='symka' /></div>
         
       </Link></SwiperSlide>
       <SwiperSlide><Link href="/shop/shop" target="_self" rel="noreferrer"><div>
-        <Image src={symka2} /></div>
+        <Image src={symka2} alt='symka' /></div>
         
       </Link></SwiperSlide>
       <SwiperSlide><Link href="/shop/shop" target="_self" rel="noreferrer"><div>
-        <Image src={symka2} /></div>
+        <Image src={symka2} alt='symka' /></div>
         
       </Link></SwiperSlide>
       <SwiperSlide><Link href="/shop/shop" target="_self" rel="noreferrer"><div>
-        <Image src={symka2} /></div>
+        <Image src={symka2} alt='symka' /></div>
         
       </Link></SwiperSlide>
 
@@ -95,17 +95,17 @@ export default function Carousel() {
       
 
       <SwiperSlide><Link href="/shop/shop" target="_self" rel="noreferrer"><div>
-        <Image src={symka4} /></div>
+        <Image src={symka4} alt='symka' /></div>
         
       </Link></SwiperSlide>
 
       <SwiperSlide><Link href="/shop/shop" target="_self" rel="noreferrer"><div>
-        <Image src={symka5} /></div>
+        <Image src={symka5} alt='symka' /></div>
         
       </Link></SwiperSlide>
       
       <SwiperSlide><Link href="/shop/shop" target="_self" rel="noreferrer"><div>
-        <Image src={symka6} /></div>
+        <Image src={symka6} alt='symka' /></div>
         
       </Link></SwiperSlide>
        
