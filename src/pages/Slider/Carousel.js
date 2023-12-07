@@ -2,7 +2,12 @@
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-import instagramblack from './../../image/instagramblack.png'
+import symka1 from './../../image/symka1.jpg'
+import symka2 from './../../image/symka2.jpg'
+
+import symka4 from './../../image/symka4.jpg'
+import symka5 from './../../image/symka5.jpg'
+import symka6 from './../../image/symka6.jpg'
 import Image from 'next/image'
 import Link  from 'next/link';
 
@@ -38,23 +43,73 @@ export default function Carousel() {
       >
         
       <SwiperSlide><Link href="/shop/shop" target="_self" rel="noreferrer"><div>
+
         <Image src={instagramblack} alt='image' /></div>
+
+        <Image src={symka1} /></div>
         
       </Link></SwiperSlide>
 
-      <SwiperSlide><Link href="/shop/shop" target="_self" rel="noreferrer">
+      <SwiperSlide><Link href="/shop/shop" target="_self" rel="noreferrer"><div>
+        <Image src={symka2} /></div>
         
       </Link></SwiperSlide>
 
-      <SwiperSlide><Link href="/shop/shop" target="_self" rel="noreferrer">
+      <SwiperSlide><Link href="/shop/shop" target="_self" rel="noreferrer"><div>
+        <Image src={symka2} /></div>
+
         
       </Link></SwiperSlide>
 
-      <SwiperSlide><Link href="/shop/shop" target="_self" rel="noreferrer">
+      <SwiperSlide><Link href="/shop/shop" target="_self" rel="noreferrer"><div>
+        <Image src={symka2} /></div>
         
       </Link></SwiperSlide>
 
-      <SwiperSlide><Link href="/shop/shop" target="_self" rel="noreferrer">
+      <SwiperSlide><Link href="/shop/shop" target="_self" rel="noreferrer"><div>
+        <Image src={symka2} /></div>
+        
+      </Link></SwiperSlide>
+
+      <SwiperSlide><Link href="/shop/shop" target="_self" rel="noreferrer"><div>
+        <Image src={symka2} /></div>
+        
+      </Link></SwiperSlide>
+
+      <SwiperSlide><Link href="/shop/shop" target="_self" rel="noreferrer"><div>
+        <Image src={symka2} /></div>
+        
+      </Link></SwiperSlide>
+      <SwiperSlide><Link href="/shop/shop" target="_self" rel="noreferrer"><div>
+        <Image src={symka2} /></div>
+        
+      </Link></SwiperSlide>
+      <SwiperSlide><Link href="/shop/shop" target="_self" rel="noreferrer"><div>
+        <Image src={symka2} /></div>
+        
+      </Link></SwiperSlide>
+      <SwiperSlide><Link href="/shop/shop" target="_self" rel="noreferrer"><div>
+        <Image src={symka2} /></div>
+        
+      </Link></SwiperSlide>
+
+
+      
+        
+      
+
+      <SwiperSlide><Link href="/shop/shop" target="_self" rel="noreferrer"><div>
+        <Image src={symka4} /></div>
+        
+      </Link></SwiperSlide>
+
+      <SwiperSlide><Link href="/shop/shop" target="_self" rel="noreferrer"><div>
+        <Image src={symka5} /></div>
+        
+      </Link></SwiperSlide>
+      
+      <SwiperSlide><Link href="/shop/shop" target="_self" rel="noreferrer"><div>
+        <Image src={symka6} /></div>
         
       </Link></SwiperSlide>
        
