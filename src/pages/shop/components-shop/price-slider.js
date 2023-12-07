@@ -3,6 +3,7 @@ import Slider from 'rc-slider';
 import 'rc-slider/assets/index.css';
 import { InputNumber } from 'antd';
 import './price.sass'
+import ScrollButton from './../ScrollButton/ScrollButton'
 
 
 
@@ -46,17 +47,27 @@ const PriceSlider = () => {
         />
       </div>
       <div className="leftbar">
-        <div className="leftbar__symki">
-        <button className="symki">Symki</button>
-        <button className="symki">Korzina</button>
-        <button className="symki">Paket</button>
-        </div>
+        <ScrollButton/>
+        <div>
+      {/* Ваш текущий контент */}
+      <div>
+        <h2>Раздел 1</h2>
+        {/* Ваш контент раздела 1 */}
       </div>
-      <div className="Card">
-        <div className="Card__CardM1"></div>
-        <div className="Card__CardM1"></div>
-        <div className="Card__CardM1"></div>
+
+      {/* Кнопка для прокрутки */}
+      <ScrollButton />
+
+      {/* Ваш текущий контент */}
+      <div id="targetSection">
+        <h2>Раздел 2</h2>
+        {/* Ваш контент раздела 2 */}
       </div>
+
+      {/* Ваш текущий контент */}
+    </div>
+      </div>
+  +
     </div>
       
       
