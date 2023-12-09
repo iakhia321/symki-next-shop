@@ -47,7 +47,7 @@ const PriceSlider = () => {
         />
       </div>
       <div className="leftbar">
-        <ScrollButton/>
+        
         <div>
       {/* Ваш текущий контент */}
       <div>
@@ -63,7 +63,12 @@ const PriceSlider = () => {
         <h2>Раздел 2</h2>
         {/* Ваш контент раздела 2 */}
       </div>
-
+      <ScrollButton/>
+      <div id="targetSection">
+        <h2>Раздел 2</h2>
+        {/* Ваш контент раздела 2 */}
+      </div>
+      <ScrollButton />
       {/* Ваш текущий контент */}
     </div>
       </div>
