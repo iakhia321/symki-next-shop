@@ -54,7 +54,7 @@ const PriceSlider = () => {
       {/* Ваш текущий контент */}
       <ProductList products={products} />
       <div>
-        <h2>Раздел 1</h2>
+        <h2>Раздел 2</h2>
         {/* Ваш контент раздела 1 */}
         <ProductList products={products} />
       </div>
