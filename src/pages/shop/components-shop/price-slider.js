@@ -3,11 +3,14 @@ import Slider from 'rc-slider';
 import 'rc-slider/assets/index.css';
 import { InputNumber } from 'antd';
 import './price.sass'
+import ScrollButton from './../ScrollButton/ScrollButton'
+import ProductList from './../../Card/Card'
+import { products } from './../../CardList/CardList'
 
 
 
 const PriceSlider = () => {
-  const [priceRange, setPriceRange] = useState([0, 100]);
+  const [priceRange, setPriceRange] = useState([0, 500]);
 
   const handlePriceChange = (newRange) => {
     setPriceRange(newRange);
@@ -21,16 +24,13 @@ const PriceSlider = () => {
 
   return (
     <div className="shop-header">
-        <h3>Shop-all</h3>
-
-    
       <div className="Price">
-        <p>Price Range: ${priceRange[0]} - ${priceRange[1]}</p>
+        <p style={{ margin: '0 16px' }}>Price Range: ₺{priceRange[0]} - ₺{priceRange[1]}</p>
         <Slider
          className="Slider-price"
          range
          min={0}
-         max={100}
+         max={500}
          value={priceRange}
          onChange={handlePriceChange}
         />
@@ -49,12 +49,37 @@ const PriceSlider = () => {
         />
       </div>
       <div className="leftbar">
-        <div className="leftbar__symki">
-        <button className="symki">Symki</button>
-        <button className="symki">Korzina</button>
-        <button className="symki">Paket</button>
-        </div>
+        
+        <div>
+      {/* Ваш текущий контент */}
+      <ProductList products={products} />
+      <div>
+        <h2>Раздел 2</h2>
+        {/* Ваш контент раздела 1 */}
+        <ProductList products={products} />
       </div>
+
+      {/* Кнопка для прокрутки */}
+      <ScrollButton />
+
+      {/* Ваш текущий контент */}
+      <div id="targetSection">
+        <h2>Раздел 2</h2>
+        {/* Ваш контент раздела 2 */}
+        <ProductList products={products} />
+      </div>
+      <ScrollButton/>
+      <div id="targetSection">
+        <h2>Раздел 2</h2>
+        {/* Ваш контент раздела 2 */}
+        <ProductList products={products} />
+      </div>
+      <ScrollButton />
+      {/* Ваш текущий контент */}
+      <ProductList products={products} />
+    </div>
+      </div>
+  
     </div>
       
       
