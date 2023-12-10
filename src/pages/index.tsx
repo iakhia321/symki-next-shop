@@ -1,11 +1,8 @@
 import Carousel from './Slider/Carousel'
-
 import ProductList from './Card/Card'
 import { products } from './CardList/CardList'
-=======
 import "./home.sass"
 import gta from './../image/gta.png'
-
 import Image from 'next/image'
 
 
