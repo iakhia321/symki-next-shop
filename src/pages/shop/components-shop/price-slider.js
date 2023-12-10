@@ -4,6 +4,8 @@ import 'rc-slider/assets/index.css';
 import { InputNumber } from 'antd';
 import './price.sass'
 import ScrollButton from './../ScrollButton/ScrollButton'
+import ProductList from './../../Card/Card'
+import { products } from './../../CardList/CardList'
 
 
 
@@ -50,9 +52,11 @@ const PriceSlider = () => {
         
         <div>
       {/* Ваш текущий контент */}
+      <ProductList products={products} />
       <div>
         <h2>Раздел 1</h2>
         {/* Ваш контент раздела 1 */}
+        <ProductList products={products} />
       </div>
 
       {/* Кнопка для прокрутки */}
@@ -62,17 +66,20 @@ const PriceSlider = () => {
       <div id="targetSection">
         <h2>Раздел 2</h2>
         {/* Ваш контент раздела 2 */}
+        <ProductList products={products} />
       </div>
       <ScrollButton/>
       <div id="targetSection">
         <h2>Раздел 2</h2>
         {/* Ваш контент раздела 2 */}
+        <ProductList products={products} />
       </div>
       <ScrollButton />
       {/* Ваш текущий контент */}
+      <ProductList products={products} />
     </div>
       </div>
-  +
+  
     </div>
       
       
