@@ -1,0 +1,11 @@
+Model Information:
+* title:	Native Bag Sample
+* source:	https://sketchfab.com/3d-models/native-bag-sample-ac44161e5558465b819f1be45eba70ac
+* author:	Red Render (https://sketchfab.com/redrender)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Native Bag Sample" (https://sketchfab.com/3d-models/native-bag-sample-ac44161e5558465b819f1be45eba70ac) by Red Render (https://sketchfab.com/redrender) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
